@@ -1,0 +1,102 @@
+id,question,latency_s,gen_calls
+611,"How many smart boards, projectors, or tablets are currently under maintenance or non-functional?",63.4,2
+609,"Which vendor has supplied the most inventory this year, and what is their pending payment status?",131.1,2
+607,How many library books are currently marked as lost or overdue by students?,75.1,2
+604,"What is the total current value of fixed assets (computers, lab equipment, furniture) registered in the ERP?",64.7,2
+603,How many textbooks and notebooks are available in the school store for the next term?,75.7,2
+602,"What is the current stock level of school uniforms, and which sizes are running low?",76.1,2
+600,What is the total maintenance and repair cost incurred for the fleet in the last quarter?,79.7,2
+597,"How many GPS tracking alerts (e.g., overspeeding, route deviation, unauthorized stops) were triggered this week?",77.2,2
+595,What is the average monthly fuel consumption and cost per vehicle?,76.0,2
+594,Which bus routes have the highest number of parent complaints or delays this month?,42.8,2
+591,How many new staff background verification checks are pending completion?,41.9,2
+590,Can you list staff members whose recent performance appraisal scores are below the expected threshold?,93.5,2
+589,What is the total amount of staff advance or salary loan pending recovery?,73.8,2
+587,Are there any discrepancies between biometric attendance and approved leave applications this month?,79.8,2
+584,What is the average years of experience of the teaching faculty in the senior secondary wing?,69.1,2
+583,Which staff members have not completed their mandatory POSH or child safety (POCSO) training?,45.8,2
+579,What is the staff attrition or turnover rate for the current academic year?,76.5,2
+578,How many teaching and non-teaching staff members are on leave today?,87.2,2
+577,What is the current teacher-to-student ratio across the school?,83.8,2
+576,What is the rate of re-evaluation or re-checking requests for the recent board exams?,72.8,2
+575,"How many students have opted for each subject combination in Class 11 (Science, Commerce, Arts/Humanities)?",72.0,2
+573,What is the academic performance comparison between the morning and evening shifts (if applicable)?,64.2,2
+572,How many practical exam marks are pending submission for the science departments?,50.3,2
+571,What is the average time taken by teachers to grade and publish exam results after the test?,47.8,2
+569,What is the syllabus completion rate for each class as per teacher logs in the ERP?,90.2,2
+568,How many students are currently enrolled in remedial or extra coaching classes?,50.2,2
+566,What is the average GPA/CGPA trend across the school over the last 3 years?,61.3,2
+559,How many students are marked present in class but have not swiped their RFID/ID cards at the gate?,57.0,2
+555,What is the daily average attendance trend compared to the same month last year?,69.0,2
+553,How many medical leave requests were submitted by students this month?,71.8,2
+549,Can you list students who have been absent for more than 3 consecutive days?,107.6,2
+546,Can you provide a list of students whose Aadhaar or UDISE+ details are missing or incomplete?,95.0,2
+544,"How many students transferred out mid-session, and what were the primary reasons recorded?",56.7,2
+543,What is the geographical distribution (pincode-wise) of our current student base?,76.8,2
+541,Are there any classes where the student strength exceeds the CBSE/State Board prescribed limit?,56.7,2
+539,How many students are currently on the waiting list for Nursery and KG admissions?,71.1,2
+538,"From which sources (website, referrals, walk-ins, social media ads) are we getting the most admissions?",61.1,2
+536,How many students were admitted under the RTE quota this academic year?,49.7,2
+534,Which class has the highest number of vacant seats for the upcoming academic session?,84.9,2
+525,What is the average time taken by parents to clear dues after the due date?,79.1,2
+524,How many fee concession or scholarship requests are currently pending management approval?,55.0,2
+520,How much RTE (Right to Education) reimbursement is currently pending from the government?,48.7,2
+514,how many students eligible for board exam registration,50.8,2
+510,how many students from outside city or hostel,77.6,2
+508,give me list of students with single parent,137.2,2
+505,which class is full and which has vacant seats,60.3,2
+499,stock that is not moving since long time,72.8,2
+498,which vendor we buy most from,79.0,2
+497,items pending for purchase approval,71.8,2
+496,what all we purchased this month for school,66.1,2
+495,furniture count classroom wise,75.7,2
+493,books issued but not returned list,86.6,2
+492,how many computers working vs not working,128.3,2
+491,sports equipment inventory show me,69.5,2
+490,which items expired or damaged in store,73.7,2
+487,how many uniforms sold this year,67.1,2
+485,which items are low in stock need to order,73.2,2
+484,how many books left in stock in library,63.6,2
+483,vehicle documents insurance puc expiry status all buses,75.1,2
+481,which driver has most complaints,74.4,2
+478,students waiting for transport allocation,92.5,2
+477,any bus due for servicing or fitness expiry,74.9,2
+474,fuel expense this month for transport,55.7,2
+460,staff whose contract expiring soon,49.2,2
+457,how many female vs male staff,45.8,2
+452,teachers without any qualification updated in system,59.1,2
+438,how many students absent without informing today,43.2,2
+432,which teacher not marking attendance regularly,101.6,2
+426,students who came late today,58.3,2
+412,average marks trend for class 8 whole year,95.1,2
+410,which stream science commerce arts best result class 11,82.7,2
+408,top 3 students in each subject class 12,87.3,2
+406,performance of RTE students in exams overall,57.6,2
+404,marks entry pending teacher wise show me,75.4,2
+390,how many exam papers still not evaluated,69.1,2
+388,class 11 commerce vs science average marks,155.0,2
+382,result not entered for which classes yet?,99.0,2
+377,how many reappear or supplementary cases this exam,46.3,2
+376,average attendance of toppers vs failures any pattern?,88.7,2
+375,students scoring less than 33 in science,69.0,2
+374,class 6 result summary quick,61.5,2
+371,which teacher's class scored best in her subject,85.6,2
+365,how many absent in the last unit test,73.9,2
+362,which section performed better in science 10A or 10B,91.3,2
+361,result analysis of class 12 science stream,87.9,2
+355,how many students failed in any subject class 8,51.1,2
+350,how much money in fees we wrote off as bad debt,65.4,2
+347,how much second installment is due this month total,85.0,2
+346,fee concession category wise breakup staff sibling rte merit,79.5,2
+342,how many reminders sent and how many paid after that,106.9,2
+333,total security deposit collected and refundable,50.9,2
+316,how much transport fee pending route wise,83.5,2
+315,any concession given without approval? i want to check,87.6,2
+300,how many siblings getting sibling discount and total amount,80.1,2
+299,total fees waived off due to rte,76.5,2
+292,how many students on installment plan currently,50.4,2
+291,total tuition fee collection excluding transport,73.8,2
+289,"how much discount we have given in total, is it too much?",66.7,2
+286,how much admission fee collected for new admissions this year,77.1,2
+278,"is there any student paid extra by mistake, refund pending?",85.1,2
+277,how much scholarship amount we given this year,47.8,2
