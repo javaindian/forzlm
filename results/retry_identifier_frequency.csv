@@ -1,0 +1,96 @@
+identifier,attempt2_hits,repeated_from_attempt1,fresh,class,has_v21_hint,suggestion
+StudentMarkDetails.Student_ID,4,0,4,COL_HALLUC,hinted,StudentMarkDetails.StudentID
+StudentMarkDetails.ExamTypeID,4,0,4,COL_HALLUC,no-hint,StudentMarkDetails.EvalHierID
+StudentMarkDetails.IsDeleted,3,1,2,COL_HALLUC,no-hint,StudentMarkDetails.Deleted
+Staff_Master.DesignationID,2,0,2,COL_HALLUC,no-hint,Staff_Master.Designation_ID/SpouseDesignation/Religion_ID
+FeesCollection_Details.IsDonation,2,0,2,COL_HALLUC,no-hint,FeesCollection_Details (no similar col)
+InventoryType_Master,1,0,1,TABLE_HALLUC,no-hint,InventoryItem_Master/InventorySupplierType_Master/InventorySupplierMaster
+InventoryItem_Master.InventoryTypeID,1,0,1,COL_HALLUC,no-hint,InventoryItem_Master.Vendor_ID/ItemCategory_ID
+InventoryItem_Master.ItemCategory_Name,1,1,0,COL_HALLUC,hinted,InventoryItem_Master.ItemCategory_ID/ItemName/Vendor_Name
+Fuel_Consumption_Details,1,1,0,TABLE_HALLUC,no-hint,FeesCollection_Details/PaymentConfiguration_Details/FeesCollection_ModeDetails
+ParentComplaint_Master,1,1,0,TABLE_HALLUC,no-hint,Company_Master/Department_Master/BoardingPoint_Master
+PerformanceAppraisal_Details,1,1,0,TABLE_HALLUC,no-hint,Branch_Facility_Details/Branch_Academic_Details/ProgressCardClassDetails
+StaffDesignationMaster.DesignationName,1,0,1,COL_HALLUC,no-hint,StaffDesignationMaster.Description
+GenerateSalaryEmployee_Master.PaidAmount,1,0,1,COL_HALLUC,no-hint,GenerateSalaryEmployee_Master.GrossAmount
+Staff_Master.StaffDOJ,1,0,1,COL_HALLUC,no-hint,Staff_Master.Staff_DOJ/Staff_DOB/Staff_ID
+SubjectAllocation_Master.ClassLevel,1,1,0,COL_HALLUC,no-hint,SubjectAllocation_Master.IsClassTeacher/Class_ID
+Staff_Master.IsPOCSOCompleted,1,1,0,COL_HALLUC,hinted,Staff_Master.IsDeleted
+Staff_Master.IsPOSHCompleted,1,1,0,COL_HALLUC,hinted,Staff_Master.IsDeleted
+ExamEvaluationDetails,1,0,1,TABLE_HALLUC,no-hint,ExamConfigurationEvaluationDetails/OtherExamConfigurationEvaluationDetails/ExaminationPlanningDetails
+ProgressCardDataRetrieval.AcademicYearName,1,1,0,COL_HALLUC,no-hint,ProgressCardDataRetrieval.AcademicYearID/TermName/ExamTypeName
+Student_Master.ShiftName,1,1,0,COL_HALLUC,no-hint,Student_Master.StaffName/FirstName/SportsName
+EvaluationMaster.GradeEntryDate,1,0,1,COL_HALLUC,no-hint,EvaluationMaster (no similar col)
+EvaluationMaster.TestDate,1,0,1,COL_HALLUC,no-hint,EvaluationMaster.IsDeleted
+ProgressCardDataRetrieval.Subject_ID,1,0,1,COL_HALLUC,no-hint,ProgressCardDataRetrieval.SubjectID/SubjectTypeID/ParentSubjectID
+LeaveEntryMaster.Student_ID,1,1,0,COL_HALLUC,no-hint,LeaveEntryMaster.Staff_ID/StaffType_ID/LeaveStatus_ID
+StudentAttendance.SectionID,1,0,1,COL_HALLUC,no-hint,StudentAttendance.Section_ID/Student_ID
+StudentAcademicDetail.TCNo,1,1,0,COL_HALLUC,hinted,StudentAcademicDetail.IDCardNo
+TCRequest.TC_No,1,1,0,COL_HALLUC,hinted,TCRequest.TC_ReferenceNo/TMRCode
+Student_Master.CommunicationPinCode,1,1,0,COL_HALLUC,no-hint,Student_Master.CommunicationMobileNo/CommunicationMailID/CommunicationeMailID
+ClassMaster.MaxStrength,1,1,0,COL_HALLUC,hinted,ClassMaster.MaxAgeLimit
+ApplicationEntry.AdmissionTypeName,1,1,0,COL_HALLUC,no-hint,ApplicationEntry.AdmissionType_Name/AdmissionType_ID/AdmissionDate
+ApplicationEntry.Application_Mode,1,0,1,COL_HALLUC,no-hint,ApplicationEntry.ApplicationNo/ApplicationDate/ApplicationRefNo
+ApplicationEntry.Student_ID,1,0,1,COL_HALLUC,no-hint,ApplicationEntry.Student_ClassID/StudentImg/StudentDob
+StudentAcademicDetail.IsRTE,1,1,0,COL_HALLUC,hinted,StudentAcademicDetail (no similar col)
+ClassSectionMaster.Branch_Id,1,0,1,COL_HALLUC,no-hint,ClassSectionMaster.BranchID/Class_Id
+StudentAcademicDetail.ClassSectionID,1,0,1,COL_HALLUC,no-hint,StudentAcademicDetail.SectionID/ClassID/IsSectionChanged
+Concession_Master.ApprovalStatus,1,0,1,COL_HALLUC,no-hint,Concession_Master (no similar col)
+RTE_Details,1,1,0,TABLE_HALLUC,no-hint,Grade_Details/ClassDetails/Route_MasterDetails
+RTE_Master,1,1,0,TABLE_HALLUC,no-hint,GSTMaster/Route_Master/UOM_Master
+Student_Master.CityName,1,1,0,COL_HALLUC,no-hint,Student_Master.Community_Name/FirstName/LastName
+ClassMaster.TotalNoStudent,1,1,0,COL_HALLUC,no-hint,ClassMaster (no similar col)
+LeaveEntryMaster.NetPay,1,0,1,COL_HALLUC,hinted,LeaveEntryMaster (no similar col)
+InventoryItem_Master.Condition_Name,1,1,0,COL_HALLUC,no-hint,InventoryItem_Master.Vendor_Name/ItemName
+InventoryItem_Master.ExpiryDate,1,1,0,COL_HALLUC,no-hint,InventoryItem_Master.Updated_Date/Created_Date
+InventoryItem_Master.IsExpired,1,0,1,COL_HALLUC,hinted,InventoryItem_Master (no similar col)
+InventoryItem_Master.ReorderLevel,1,0,1,COL_HALLUC,no-hint,InventoryItem_Master (no similar col)
+VehicleMaster.PUC_Date,1,0,1,COL_HALLUC,no-hint,VehicleMaster.FC_Date/Updated_Date/Created_Date
+DriverFeedback,1,1,0,TABLE_HALLUC,hinted,FeedbackTicket/DriverMaster/FeedbackCategory
+BoardingPoint_Master.DriverID,1,0,1,COL_HALLUC,no-hint,BoardingPoint_Master (no similar col)
+FeedbackTicket.Route_ID,1,0,1,COL_HALLUC,no-hint,FeedbackTicket.StudentID
+FeesCollection_Details.TransportFeeName,1,0,1,COL_HALLUC,no-hint,FeesCollection_Details.LateFeeName/FeesType_Name/FeesGroup_Name
+Staff_Master.ContractEndDate,1,0,1,COL_HALLUC,no-hint,Staff_Master.Created_Date/ServiceConfirmationDate/Com_State
+Staff_Master.IsHold,1,0,1,COL_HALLUC,no-hint,Staff_Master.IsDeleted/BEdHolder
+StaffQualificationMaster,1,0,1,TABLE_HALLUC,no-hint,StaffEvaluationMaster/StaffDesignationMaster/StaffRatingMaster
+Staff_Master.ID,1,0,1,COL_HALLUC,no-hint,Staff_Master.TypeID
+StudentAttendance.InformParent,1,1,0,COL_HALLUC,no-hint,StudentAttendance (no similar col)
+StudentAttendance.Attendance_Staff_ID,1,1,0,COL_HALLUC,no-hint,StudentAttendance.Attendance_Status_ID/Attendance_Date/Attendance_Reason
+StudentAttendance.InTime,1,1,0,COL_HALLUC,hinted,StudentAttendance (no similar col)
+StudentMarkDetails.MarksDate,1,1,0,COL_HALLUC,hinted,StudentMarkDetails.Marks/Remarks
+StudentMarkDetails.SubjectTypeID,1,0,1,COL_HALLUC,no-hint,StudentMarkDetails.StudentID
+Student_Master.AcademicYearID,1,0,1,COL_HALLUC,no-hint,Student_Master.AdmissionCategoryID/CanditateID/AdmissionType_ID
+Student_Master.ClassName,1,0,1,COL_HALLUC,no-hint,Student_Master.LastName/BankName/ClassLastStudied
+Student_Master.StreamName,1,0,1,COL_HALLUC,no-hint,Student_Master.Stream/StaffName/StreamID
+StudentMarkMaster.SubjectID,1,0,1,COL_HALLUC,no-hint,StudentMarkMaster.SectionID/ExamSettingID
+ProgressCardDataRetrieval.Student_ID,1,0,1,COL_HALLUC,no-hint,ProgressCardDataRetrieval.StudentID/StudentName/SubjectID
+Student_Master.Staff_FirstName,1,0,1,COL_HALLUC,no-hint,Student_Master.StaffName/FirstName/LastName
+Student_Master.Staff_LastName,1,0,1,COL_HALLUC,no-hint,Student_Master.StaffName/LastName/MotherLastName
+StudentMarkMaster.IsDeleted,1,1,0,COL_HALLUC,no-hint,StudentMarkMaster.Deleted
+ExamConfigurationEvaluationDetails.EvalHierID,1,0,1,COL_HALLUC,no-hint,ExamConfigurationEvaluationDetails.ExamHeaderID/EvaluationTypeID/SubjectEvaluationID
+StudentMarkMaster.SubjectName,1,1,0,COL_HALLUC,no-hint,StudentMarkMaster (no similar col)
+ProgressCardDataRetrieval.StaffName,1,1,0,COL_HALLUC,hinted,ProgressCardDataRetrieval.SubjectName/StudentName/ParentName
+StudentMarkDetails.SubjectName,1,0,1,COL_HALLUC,no-hint,StudentMarkDetails (no similar col)
+ExamConfigurationEvaluationDetails.SubjectID,1,0,1,COL_HALLUC,no-hint,ExamConfigurationEvaluationDetails.SubjectEvaluationID/ParentID/SubjectEvaluationName
+StudentMarkDetails.ClassID,1,0,1,COL_HALLUC,no-hint,StudentMarkDetails (no similar col)
+Subject_Master.StreamName,1,1,0,COL_HALLUC,no-hint,Subject_Master.Name/SubShortName
+StudentMarkMaster.MinMark,1,0,1,COL_HALLUC,no-hint,StudentMarkMaster (no similar col)
+FeesCollection.Branch_Id,1,0,1,COL_HALLUC,no-hint,FeesCollection.BranchID/Branch/Bank
+FeesCollection_Details.Part_Id,1,0,1,COL_HALLUC,no-hint,FeesCollection_Details (no similar col)
+FeesCollection_Details.ReminderNo,1,1,0,COL_HALLUC,hinted,FeesCollection_Details.Remarks
+Student_Master.RemainingSecurityDeposit,1,0,1,COL_HALLUC,no-hint,Student_Master.Security_Deposit_Date/Security_Deposit_Amount
+Student_Master.SecurityDepositAmount,1,0,1,COL_HALLUC,no-hint,Student_Master.Security_Deposit_Amount/Security_Deposit_Date/Lumpsum_Amount
+BusFeeStrucure.Concession_Amt,1,1,0,COL_HALLUC,hinted,BusFeeStrucure (no similar col)
+BusFeeStrucure.IsDonation,1,1,0,COL_HALLUC,no-hint,BusFeeStrucure (no similar col)
+BusFeeStrucure.IsIncludedInLumpSum,1,1,0,COL_HALLUC,no-hint,BusFeeStrucure (no similar col)
+BusFeeStrucure.Lien_Amount,1,0,1,COL_HALLUC,no-hint,BusFeeStrucure.Amount
+BusFeeStrucure.Paid_Amt,1,0,1,COL_HALLUC,no-hint,BusFeeStrucure (no similar col)
+FeesCollection_Details.IsDeleted,1,0,1,COL_HALLUC,no-hint,FeesCollection_Details (no similar col)
+FeesCollection_Details.IsIncludedInLumpSum,1,0,1,COL_HALLUC,no-hint,FeesCollection_Details (no similar col)
+FeesCollection_Details.Student_ID,1,1,0,COL_HALLUC,hinted,FeesCollection_Details.FeeStructureMonths_ID/Term_ID
+StudentAcademicDetail.InstallmentPlanName,1,1,0,COL_HALLUC,no-hint,StudentAcademicDetail (no similar col)
+FeesCollection.Gross_Amount,1,1,0,COL_HALLUC,no-hint,FeesCollection.FromMonth/FromMonthName
+FeesCollection.NetPay,1,0,1,COL_HALLUC,no-hint,FeesCollection (no similar col)
+FeesCollection.FeesType_Name,1,0,1,COL_HALLUC,no-hint,FeesCollection.CollectionType_Name/Collected_By_Name/ChequeStatus_Name
+FeesCollection.Role_ID,1,0,1,COL_HALLUC,no-hint,FeesCollection.Deleted_ID/Collected_By_ID/Class_ID
+FeesCollection_Details.IsIncludedInLumpsum,1,0,1,COL_HALLUC,no-hint,FeesCollection_Details (no similar col)
+StudentAcademicDetail.Scholarship_Amount,1,1,0,COL_HALLUC,hinted,StudentAcademicDetail.Lumpsum_Amount

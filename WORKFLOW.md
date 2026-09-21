@@ -48,3 +48,8 @@ Branch for all work: **`sandbox-outputs`**.
   id=603: `("InventoryItem_Master", "InventoryTypeID")` and `("InventoryType_Master", None)` — both point
   to `ItemCategory_ID` → `InventoryCategory_Master(Id, Name)`. v2.2 ships as ONE batch after the full
   101 replay CSV lands in `results/`.
+- 2026-09-21 (final): full-101 rev2 run analyzed (tools/analyze_retry_results.py -> docs/retry101_analysis.md
+  + results/retry_identifier_frequency.csv). Outcomes: 8 PASS_FIRST / 15 PASS_RETRY / 16 REFUSED_DOMAIN /
+  62 FAIL_BOTH. Key finding: hints fix 83% of hinted identifiers, but attempt-2 spawns 65 fresh
+  hallucinations (95 distinct) and 77 attempt-2 identifiers had no v2.1 hint. Single-retry is the
+  bottleneck -> v2.2 batch + multi-retry ceiling measurement (rev3) next.
