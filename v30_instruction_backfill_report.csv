@@ -1,0 +1,53 @@
+file,row_index_1based,input_md5_12,question_prefix,old_line_md5_12,new_line_md5_12
+train,3623,d691decccd67,List students who were absent for more than 5 days in a given date ran,3d8b673ef1fa,1bf6ea983551
+train,3624,407fb626fb23,Which students were absent for more than 3 days last month?,ce0d4c143d13,fbb44d42b334
+train,3625,bec47bf4bdbd,Show students who were absent for 5 or more working days this academic,fc516e5e7c01,d00e47466448
+train,3626,5323a8338804,Which students were absent on every working day last week?,b2598cf58a48,ddd96e79dc0f
+train,3627,9f10265327dd,List students who came late more than 4 times in the last 30 days.,76e9b016b9a8,732e5639ced3
+train,3628,f68fe9c0ee3e,Show students whose attendance percentage is below 75% this academic y,8ee739ebd2f8,27d6400b708b
+train,3629,c5b80989e6a6,Which students were absent on more than 3 Mondays this term?,089e7ceab91c,eb325511824d
+train,3630,f9a7a0378db7,List students who were absent for more than 5 days without an approved,07d0e719b842,0018e95d2c22
+train,3631,0fc0e9d280b1,Which students have perfect attendance (zero absences) this month?,ba2742217ae1,1689942b89bd
+train,3632,8db56f6b50ae,Show students whose absence days this month are more than double last ,f737158349c0,7b18a6ebb53f
+train,3633,99489cee1154,List staff who took more than 3 days of leave last month.,e9f791e19c0e,88294290c045
+train,3634,a958e22e063a,Which staff took 5 or more days of leave this academic year?,bc373b101fcf,30590b619c17
+train,3635,7e93ce6dbad1,Show staff who took more than 2 casual leaves in a single month this y,578e8776201f,2a8506331786
+train,3636,18629845e30f,List staff currently on continuous leave for more than 7 days.,f470e8257174,e646f1210aea
+train,3637,1b92089e057f,Staff who took leave on more than 3 working days this month.,8ed1642a77e1,001897725052
+train,3638,9d76f7f41269,Staff whose leave usage this month exceeded the maximum limit for any ,4064f6949a2e,5dc34d188db9
+train,3639,4c1411a666d4,Which staff have pending leave requests older than 7 days?,d686333bf8ba,378ef4534698
+train,3640,5d092ba52305,Show staff who took leave on more than 2 days in any single week this ,64ab2c455e4b,858b87e5f660
+train,3641,5a4666718183,List staff whose sick leave exceeded 10 days this academic year.,3c7729f5f1cd,247e8c624da3
+train,3642,539e2971f6b0,Show students who failed in 2 or more subjects in the most recent exam,7439d2863d4c,d6eed2e3b131
+train,3643,9cb323826cfb,List students scoring below 35% in more than 2 subjects this academic ,659fbc5c8bb9,3e09f34770ee
+train,3644,d34686b55875,Which students' total marks dropped by more than 10% compared to the p,0e64ebe1d106,f746f291fe15
+train,3645,e96d254d8b08,List students who were absent for more than 2 exams this academic year,093761f3fe17,e6dd3ed079c5
+train,3646,4dd69ac2cb73,Which classes had an average score below 50% in the latest exam?,a47a5ea0d8ce,61175dc637c7
+train,3647,850c8aeab135,List students who failed in the same subject in 2 or more consecutive ,78bf10f8af9e,0969a78e0bc2
+train,3648,1288e66a22c8,Show students scoring more than 20% below their class average in 3 or ,70ffbc9427e0,c9be24a760c9
+train,3649,c8d6015c5e56,Which students have more than 5 exam-absence records this academic yea,824254d1543d,11a96d6b39ce
+train,3650,9067c35822de,List students who scored less than 40 marks in more than 2 subjects in,e883436d56b6,2c0357034ef2
+train,3651,e26cce8c3459,Show subjects where marks entry is missing for more than 5 students.,9827a305283e,6318b9334274
+train,3652,58684895d390,"List students with pending fees of more than 5,000 rupees.",72a82de8d0fe,357bdff42881
+train,3653,43c8df005168,Which students have fees overdue by more than 30 days?,6ef8a374cd7c,6806b69c7ed4
+train,3654,903635efcd70,List students with more than 2 overdue fee installments.,6b10da1601fe,ba8be7fdbe33
+train,3655,05ba946fc44f,Show classes whose fee defaulter count exceeds 10 students.,f8d8bb1060b6,0cd489867b35
+train,3656,b251095d13a4,Which students have paid less than 50% of their total due this academi,69794d7ee1a1,d8a99ef69a95
+train,3657,162969acf80a,List teachers who have not posted any homework for more than 7 days.,15d853879686,417cb6391a7c
+train,3658,6df58b715c71,Which classes had homework posted fewer than 3 times last week?,3a63dc577db4,9c212db8f962
+train,3659,8d66f1e99c8d,Show homework items acknowledged by fewer than half of the students in,a9629fd22043,35a012876ca8
+train,3660,cf47a588b5b0,Which classes have not received any circular in the last 15 days?,40d62d12b6bc,18c98323270b
+train,3661,4b3ee2806946,Show circulars older than 5 days that no parent has acknowledged yet.,c6638c543be5,df49f8e7defc
+train,3662,b9aaf77481ac,Show admission enquiries with no follow-up recorded for more than 7 da,c7206082571c,20d55f5276a5
+train,3663,9eb6f407ccaa,List admission applications pending a decision for more than 15 days.,40f3bd65846d,b5e949c1126f
+train,3664,21b1531e8fdd,List TCs issued while fees remain outstanding for that student.,d90340fd6426,09929f899bde
+train,3665,8b7284ee8d5c,Show transport routes allocated to more than 60 students (over capacit,e395853a0de8,779bf4429b5c
+train,3666,e7425ec82f87,Which classes have attendance not marked for more than 3 school days t,210b2c56fbd6,69e6010f8317
+val,318,37c49331137d,List students who were continuously absent for 3 or more consecutive w,1b32ee7d7eeb,1d6866d2d77f
+val,319,3102e11c8ef1,Show classes whose average attendance fell below 80% in the last 30 da,655c96ef0bb7,cda7f71da072
+val,320,79bfc1efc21f,List staff who took more leave days last month than the school-wide st,8fd934005815,e9f1cd22c15d
+val,321,5a4758876f0c,Which students failed in more than 3 subjects in the latest exam?,904b47784365,8df8d123f8a7
+val,322,0def015d9939,Show subjects where more than 20% of students failed in the latest exa,ac4b70aa60cf,3c823770bbb2
+val,323,3f3b28b58715,Show students who have not made any fee payment this academic year.,69bb231abeeb,0cef3a76295a
+val,324,18152e1c823a,Show circulars with parent acknowledgment below 60%.,4298970a21e9,c1ffb4f33490
+val,325,b906130d373f,Which TC applications have been pending issuance for more than 10 days,c1258176d4b3,d7cbb4145206
