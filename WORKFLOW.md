@@ -37,6 +37,10 @@ Branch for all work: **`sandbox-outputs`**.
 
 ## State log
 
+- 2026-09-21 (later): owner restored all artifacts lost in the sandbox reset (flat upload, then agent-filed
+  into layout). Verified: patch v2.1 (79 entries, IEM + Part B v2.1 block, py_compile OK) · replay rev2
+  (tally fix present, 101 questions, py_compile OK) · v1 replay_results.csv (101 rows) · guardrail101
+  worklist + live-tree zip in baseline/. Awaiting: full-101 replay_retry_results.csv in results/.
 - 2026-09-21: repo workflow established. Agent sandbox reset to ~Sep 15 checkpoint lost local copies of
   `patch_hintmap_v2_1.py` (79 HINT_MAP entries + domain-absent refusal, applied & pilot-verified on VPS)
   and `replay_with_retry101_rev2.py` (retry-path instrument, tally fix; 5-row pilot done).
